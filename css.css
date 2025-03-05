@@ -90,28 +90,38 @@
     height: 600px;
     justify-content: flex-start;
     background-image: linear-gradient(to right, rgba(249, 211, 230, 0.3), rgba(180, 225, 227, 0.3));
-    gap: 100px;
-    padding: 100px;
+    gap: 50px;
+    padding: 50px;
 }
 .text-sec {
   flex: 1;  
   max-width: 600px;
-  padding: 120px;
-  margin-right:-130px ;
-  margin-top: -70px;
+  padding: 10px;
+  margin-right:150px ;
+  margin-left: 70px;
+  margin-top: 50px;
+}
+.linec{
+  margin-top: -400px;
+  margin-right: -8git 0px;
+}
+.orline{
+  margin-left: 300px;
+  margin-bottom: 65px;
+  margin-top: -75px;
 }
 
 .image-sec img {
-  width: 520px; 
-  height: 425px; 
+  width: 550px; 
+  height: 455px; 
   margin-left: -130px;
-  margin-top: -70px;
+  margin-top: 30px;
 }
 h1 {
   font-size: 50px;
   font-weight: 700;
   color: #000;
-  margin-bottom: 30px;
+  margin-bottom: 70px;
 }
 
 .highlight {
@@ -125,6 +135,7 @@ h1 {
   font-size: 20px;
   color: #101010;
   margin-bottom: 30px;
+  margin-top: -30px;
 }
 
 .features {
@@ -133,7 +144,7 @@ h1 {
   margin-bottom: 30px;
 }
 
-.icon-text {
+.icon {
   display: inline-flex; 
   align-items: center; 
   gap: 8px;  
@@ -141,11 +152,12 @@ h1 {
   color: #333; 
 }
 
-.icon-text img {
-  width: 20px; 
-  height: 20px;
+.icon img {
+  width: 25px; 
+  height: 25px;
   vertical-align: baseline;
 }
+
 
 .explore-button {
   background: #5A7FFF;
@@ -165,49 +177,86 @@ h1 {
 
 
 
-
-
-
-.video-heading {
-  font-size: 24px;
-  font-weight: bold;
-  margin-top: 60px;
-  padding-top: 40px;
-  text-align: center;
-}
-
 .video-container {
   display: flex;
+  flex-direction: column;
+  align-items: center;
+  
+  background-image: linear-gradient(to right, rgba(255, 229, 242, 0.3), rgba(223, 253, 254, 0.3));
+  padding: 100px 200px;
+  text-align: center;
+  
+}
+
+
+
+.video-container h2 {
+  padding: 20px;
+  width: 100%;
+  text-align: center;
+  
+  border-radius: 5px;
+  margin-bottom: 20px;
+ 
+}
+
+.layout {
+  display: flex;
   justify-content: center;
-  gap: 20px;
-  padding: 100px;
-  animation: scrollVideos 25s linear infinite;
+  align-items: center;
+  padding: 20px;
+  gap: 20px; 
+}
+
+.left-layout,
+.right-layout {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.left-arrow,
+.right-arrow {
+    width: 84px;
+    height: 633px;
+    max-width: 10vw; 
+}
+
+.dots {
+    width: 153px;
+    height: 99px;
+    margin-top: 20px;
+}
+
+
+.main {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 60%;
+    max-width: 900px; 
+    background-color: #e6e8ea;
+    border-radius: 10px;
 }
 
 .video {
-  margin-top: -40px;
-  width: 388px;
-  height: 280px;
-  background: #fff;
-  border-radius: 10px;
-  overflow: hidden;
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
 }
 
-.video iframe {
-  width: 100%;
-  height: 230px;
-  border: none;
-  border-radius: 10px 10px 0 0;
-  display: block;
-}
+
+
 
 .video-title {
-  background: #0e0e2c;
+  background-color: #0d1226;
   color: white;
-  padding: 20px;
-  font-size: 14px;
-  text-align: left;
-  margin-top: -5;
+  padding: 15px;
+  font-size: 16px;
+  text-align: center;
+  width: 1022px;
+  margin-top: -10px;
+  border-radius: 5px;
 }
 
 
@@ -219,7 +268,7 @@ h1 {
 
 
 .page-c {
-  width: 75%;
+  max-width:  1100px;
   margin: auto;
   padding: 100px 200px;
   background-color: #f7f9ff;
@@ -272,6 +321,73 @@ h2 {
 
 
 
+
+
+
+
+
+
+.page-d { 
+  display: flex;
+  max-width: 1100px;
+  width: 90%;
+  align-items: center;
+  justify-content: center;
+}
+
+.left-content {
+  flex: 1;
+  padding-left: 30px;
+}
+
+.flyrocket {
+  width: 150px; 
+  margin-bottom: 10px;
+}
+
+.left-content h1 {
+  font-size: 28px;
+  font-weight: bold;
+  text-align: left;
+  margin-bottom: 20px;
+}
+
+.step {
+  margin-bottom: 20px;
+}
+
+.step-badge {
+  display: inline-block;
+  background-color: #c8f6e6;
+  color: #008545;
+  padding: 6px 12px;
+  border-radius: 20px;
+  font-size: 14px;
+  font-weight: bold;
+  margin-bottom: 8px;
+}
+
+h2 {
+  font-size: 20px;
+  margin-bottom: 5px;
+}
+
+p {
+  font-size: 16px;
+  color: #666;
+}
+
+.right-content {
+  flex: 1;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.right-content img {
+  width: 417px;
+  height: 377px; 
+  max-width: none;
+}
 
 
 
