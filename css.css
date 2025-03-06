@@ -60,7 +60,7 @@ body::-webkit-scrollbar {
 .logbtn{
   display: flex;
   gap: 15px;
-  padding-right: 30px;
+  padding-right: 120px;
 } 
 .login {
   background: transparent;
@@ -101,6 +101,7 @@ body::-webkit-scrollbar {
   flex: 1;  
   padding-bottom: 60px;
   text-align: left;
+  padding-left: 30px;
 }
 .linethree{
   padding-top: 30px;
@@ -109,7 +110,8 @@ body::-webkit-scrollbar {
 }
 
 .curvyline{
-  padding-left: 330px;
+  padding-left: 300px;
+  padding-bottom: 30px;
 }
 
 .image-sec img {
@@ -124,7 +126,7 @@ body::-webkit-scrollbar {
   font-size: 48px;
   font-weight: 700;
   color: #000;
-  padding-left: 30px;
+  
 }
 
 .highlight {
@@ -140,15 +142,13 @@ body::-webkit-scrollbar {
   font-weight: 400; 
   width: 600px; 
   align-items: start; 
-  padding-left: 33px;
-  padding-top: 30px;
+  
 }
 
 .features {
   display: flex;  
   padding-top: 30px; 
   padding-bottom: 50px;
-  padding-left: 30px;
   gap: 20px;
 }
 
@@ -177,7 +177,6 @@ body::-webkit-scrollbar {
   padding: 15px 25px;
   border-radius: 10px;
   cursor: pointer;
-  padding-left: 30px;
 }
 
 .explore-button:hover {
@@ -334,14 +333,11 @@ body::-webkit-scrollbar {
 
 .page-d { 
   display: flex;
-  align-items: center;
-  justify-content: center;
 }
 
 
 .left-content {
   flex: 1;
-  padding-left: 200px;
   text-align: left;
 }
 
